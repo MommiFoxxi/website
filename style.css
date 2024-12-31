@@ -1,15 +1,61 @@
-html,body {margin:0px; padding:0px; overflow-x:hidden;}
+body {
+	background-color: #662D45;
+	background-image: url("https://assets.onecompiler.app/434e5hkf9/434e68ykk/fox%20back.png");
+	border: 2px dashed #B84239;
+	padding: 20px 20px 20px 20px;
+	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+}
+#banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid transparent;
+	border-color: #FFB98E;
+	box-shadow: 5px 5px 10px #B84239;
+}
 
-body{background-image:none;
-	background-repeat:no-repeat; 
-	background-attachment: fixed;
-	background-color:#662D45;
-	z-index:0;}
-
-#centertxt {
-	line-height:1em;
-	z-index:5;
-	margin: 20px 164px 20px 165px;
-	padding: 60px 20px 60px 20px;
+h1 {
+	text-shadow: 1px 1px 2px #FFB98E;
 	text-align: center;
-	}
+	padding: 10px;
+}
+#centertxt {
+	color:#3F0B21;
+	line-height:1.5em;
+	background-color:#EE91A7;
+	z-index:5;
+	border: 10px solid #FFB98E;
+	box-shadow: 5px 5px 10px #B84239;
+	min-width: 921px;
+	max-width: 921px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a.button {
+	padding: 15px 30px 15px 30px;
+	border: 5px dotted #FFB98E;
+	border-radius: 100px;
+	color: #FFB98E;
+	background-color: #662D45;
+	box-shadow: 5px 5px 10px #BE2876;
+	text-shadow: 1px 1px 2px #BE2876, 0 0 25px #BE2876, 0 0 5px #BE2876;
+	margin: 2px 8px 2px 8px;
+}
+#buttonbar {
+	display: block;
+	min-width: 921px;
+	max-width: 921px;
+	padding: 65px 10px 50px 10px;
+	background-color: rgba(74.51, 15.69, 46.27, .25);
+	margin-left: auto;
+	margin-right: auto;
+}
+#dancegif {
+	display: block;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content {
+	padding: 35px;
+}
