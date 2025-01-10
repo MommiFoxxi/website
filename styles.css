@@ -42,7 +42,7 @@ a.button {
 	margin: 2px 8px 2px 8px;
 }
 #buttonbar {
-	display: block;
+	display: flex;
 	min-width: 921px;
 	max-width: 921px;
 	padding: 65px 10px 50px 10px;
