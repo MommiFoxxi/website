@@ -3,10 +3,11 @@ body {
 	background-image: url("https://assets.onecompiler.app/434e5hkf9/434e68ykk/fox%20back.png");
 	border: 2px dashed #B84239;
 	padding: 20px 20px 20px 20px;
-	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif; 
+	font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+	text-align: center;
 }
 #banner {
-	display: block;
+	display: inline-blockblock;
 	margin-left: auto;
 	margin-right: auto;
 	border: 10px solid transparent;
@@ -26,8 +27,8 @@ h1 {
 	z-index:5;
 	border: 10px solid #FFB98E;
 	box-shadow: 5px 5px 10px #B84239;
-	min-width: 921px;
-	max-width: 921px;
+	min-width: 1200px;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -40,18 +41,19 @@ a.button {
 	box-shadow: 5px 5px 10px #BE2876;
 	text-shadow: 1px 1px 2px #BE2876, 0 0 25px #BE2876, 0 0 5px #BE2876;
 	margin: 2px 8px 2px 8px;
+	font-size: 18;
 }
 #buttonbar {
-	display: flex;
-	min-width: 921px;
-	max-width: 921px;
+	display: inline-block;
+	min-width: 1200px;
+	max-width: 1200px;
 	padding: 65px 10px 50px 10px;
 	background-color: rgba(74.51, 15.69, 46.27, .25);
 	margin-left: auto;
 	margin-right: auto;
 }
 #dancegif {
-	display: block;
+	display: inline-block;
 	width: 20%;
 	margin-left: auto;
 	margin-right: auto;
