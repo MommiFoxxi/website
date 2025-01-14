@@ -97,7 +97,7 @@ a.button {
 #div1 {
   display: inline-block;
   width: 200px;
-  height: 300px;
+  height: 200px;
 }
 
 #div2 {
@@ -106,5 +106,5 @@ a.button {
   background-color: #C75A7B;
   border: 10px solid #D90949;
   width: 700px;
-  height: 300px;
+  height: 200px;
 }
